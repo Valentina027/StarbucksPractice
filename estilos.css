@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+ }
+ body{
+    background: #fff;
+    font-family: sans-serif;
+ }
+ section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    }
+    header{
+        position: absolute;
+        background: #067655;
+        top: 25px;
+        left: 0;
+        width: 100%;
+        padding: 1px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+ .menu{
+    position: relative;
+    width: 120px;   
+ }
+ img{
+    width: 120px;
+    padding: 10px;
+ }
+ nav{
+    float: right;
+ }
+ header ul{
+    position: absolute;
+    display: flex;
+    background-color:#067655;
+    padding: 40px;
+    width: 100%;
+    left: 850px;
+
+}
+ header ul li{
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    align-items: center;
+    color: #fff;
+    font-weight: 900px;
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+}
+body{
+    background: #fff;
+}
+html{
+    font-size: 90%;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.container .title{
+    font-size: 3rem;
+    color: #743414;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container .products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+.container .products-container .product{
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #dbb794;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+.container .products-container .product img{
+    height: 25rem;
+}
